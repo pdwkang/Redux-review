@@ -12,6 +12,6 @@
 
 // export default SelectStudent;
 
-export default function SelectStudent(){
-	console.log('action occured!')
+export default function SelectStudent(student){
+	console.log(student)
 }

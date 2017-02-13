@@ -13,7 +13,7 @@ class StudentList extends Component{
 		var studentArray = [];
 		this.props.students.map((student, index)=>{
 			studentArray.push(
-				<li key={index} onClick={this.props.selectStudent}>
+				<li key={index} onClick={()=>this.props.selectStudent(student.name)}>
 					{student.name}
 				</li>)
 			return "blabhlahbklsa"
